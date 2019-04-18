@@ -6,4 +6,5 @@ app=Flask(__name__)
 # Define our "ping" end point
 @app.route('/ping')
 def useless_output():
+  print("Its useless as of now")
   return(useless_function())
